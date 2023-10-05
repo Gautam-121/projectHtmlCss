@@ -28,21 +28,22 @@ body{
 .toggle_bar{
     margin-right: 15px;
     margin-bottom: 3px;
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .youtube_logo{
-    height: 40px;
-    width: 95px;
+    height: 30px;
+    width: 90px;
     background-image: url("https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo-2017-present.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .input_serch_wrapper{
     /* border: 1px solid; */
-    /* border: 1px solid; */
+    border: 1px solid;
+    font-size: 15px;
     width: 45%;
     margin-bottom: 8px;
     display: flex;
@@ -54,8 +55,8 @@ body{
     border-top-left-radius: 13px;
     margin-top: 2.2px;
     width: 90%;
-    height: 22px;
-    font-size: 14px;
+    height: 20px;
+    font-size: 11px;
     padding: 0px 12px;
     background-color:hsl(0%, 0%, 100%);
     color: hsl(0%, 0%, 6,7%);
@@ -76,7 +77,7 @@ body{
     color: #000000;
     font-size: small;
     cursor: pointer;
-    height: 22px;
+    height: 20px;
     margin-top: 2.2px;
 
 
@@ -95,7 +96,6 @@ body{
 .mice_input{
     height: 30px;
     padding: 7px;
-    /* font-size: xx-small; */
     /* border: 1px solid; */
     margin-left: 20px;
     background-color: #c9c9c999;
@@ -108,8 +108,9 @@ body{
 }
 
 .user_setting_wrapper{
-    width: 150px;
-    border: 1px solid;
+    width: 120px;
+    height: 50px;
+    /* border: 1px solid; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -117,6 +118,32 @@ body{
 
 .sign-in-wrapper{
     display: flex;
-    margin-top: 10px;
-    align-items: start;
+    /* margin-bo: 0px; */
+    margin-bottom: 2px;
+    border: 1px solid;
+    width: 60px;
+    margin-left: 25px;
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: 9px;
+    color: blue;
+    border-color: #ccc;
+
+}
+
+.header_setting_point{
+    font-size: small;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.user_circle{
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+
+.sign_in_acc{
+    font-size: 10px;
+    margin-left: 3px;
 }
