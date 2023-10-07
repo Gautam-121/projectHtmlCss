@@ -1,62 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon-icon -->
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/0c0555f3/img/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <!-- flaticon-CDN links -->
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" rel="stylesheet" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <!-- Attached Google Font Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <!-- attched Stylesheet to html -->
+    <link rel="stylesheet" href="index.css">
     <title>Youtube</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Roboto', sans-serif;
-        }
-        .heading_wrapper{
-            margin: 0px 10px;
-            display: flex;
-            background-color: #ffffff;
-        }
-        .youtube-logo_wrapper{
-            border: 1px solid;
-            width: 500px;
-        }
-        .youtube_logo{
-            height: 30px;
-            width: 90px;
-            background-image: url("https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo-2017-present.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            margin-top: 8px;
-        }
-        .search_input_wrapper{
-            border: 1px solid;
-        }
-        .user_signIn_Wrapper{
-            border: 1px solid;
-        }
-    </style>
 </head>
+
 <body>
-    <header class="heading_wrapper">
-        <div class="youtube-logo_wrapper">
-            <i class="fi fi-br-menu-burger toggle_bar"></i>
-            <p class="youtube_logo"></p>
-        </div>
-        <div class="search_input_wrapper">
-            box2
-        </div>
-        <div class="user_signIn_Wrapper">
-            box3
+
+    <header class="background_ytd_masterhead">
+        <div class="ytd_header_wrappper">
+            <div class="ytd_logo_container">
+                <i class="fi fi-sr-menu-burger toggle_bar"></i>
+                <div class="ytd_logo"></div>
+            </div>
+            <div class="ytd_search_container">
+                <input type="text" value="" placeholder="Search" class="input_serch">
+                <i class="fi fi-rr-search input_search_icon"></i>
+                <img src="./Youtube_Clone/mic.png" width="15px" class="mice_input">
+
+            </div>
+            <div class="ytd_signIn_container">
+                <i class="fi fi-sr-menu-dots-vertical"></i>
+                <i class="fi fi-ts-circle-user user_circle"></i>
+                <p class="sign_in_acc">Sign in</p>
+            </div>
         </div>
     </header>
+
 </body>
+
 </html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background_ytd_masterhead{
+    background-color: #fff;
+    height: 56px;
+    width: 100%;
+}
+.ytd_header_wrappper{
+    height: 56px;
+    border: 1px solid black;
+    padding:0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ytd_logo_container{
+   display: flex;
+   flex-direction: row;
+}
+
+.toggle_bar{
+    font-size: 12px;
+    padding: 10px 12px;
+    font-weight: 100;
+}
+
+.ytd_logo{
+    height: 20px;
+    width: 90px;
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo-2017-present.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 19px 14px 18px 16px;
+}
+
+.ytd_search_container{
+    width: 50%;
+    margin-left: -20px;
+    margin-bottom: 3px;
+}
+
+.input_serch{
+    width: 70%;
+    padding:  7px 10px 3.8px 10px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-color: hsl(0 , 0% , 100%);
+    box-shadow: inset 0 1px 2px #eee;
+    caret-color: #0f0f0f;
+    color: hsl(0 , 0% ,6.7%);
+    border: 1px solid gainsboro;
+    font-size: 10px;
+}
+
+.input_serch:focus{
+    border: none;
+    outline: none;
+    box-shadow: inset 0 1px 1px #105095 , inset 0 -1px 1px #105095 ;
+}
+
+.input_search_icon{
+    cursor: pointer;
+    padding: 7px 10px 3.8px 10px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color:#f8f8f8;
+    box-shadow: inset 0 1px 2px #eee;
+    caret-color: #0f0f0f;
+    color: hsl(0 , 0% ,6.7%);
+    border: 1px solid gainsboro;
+    border-left: none;
+    margin-left: -2.95px;
+    font-size: 10px;
+}
+
+.input_search_icon:hover{
+    background-color: #f0f0f0;
+}
