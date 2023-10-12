@@ -1,5 +1,5 @@
 .header_wrapper{
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 56px;
     margin: 0px 10px;
     display: flex;
@@ -7,9 +7,21 @@
     justify-content: space-evenly;
 }
 
+/* Box1 */
 .header_logo_conatiner{
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.menu_bar{
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.menu_bar:hover{
+    background-color: #ccc;
 }
 
 .logo_wrapper{
@@ -27,3 +39,85 @@
     background-repeat: no-repeat;
     margin-left: 5px;
 }
+
+/* box2 */
+.header_search_container{
+    width: 80%;
+    height: 100%;
+    margin-right: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_wrapper{
+    height: 35px;
+    width: 60%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+}
+
+.search_bar{
+    width: 70%;
+    height: 100%;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-size: 1rem;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #111111;
+    background-color: hsl(0 , 0% , 100%);
+}
+
+.search_bar:focus{
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 255, 0.649), inset -1px -1px 2px rgba(0, 0, 255, 0.649);
+}
+
+.search_Wrapper{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.search_icon{
+    border: 1px solid red;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    background-color: #f8f8f8;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #000000;
+    border-left: none;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.mike_icon{
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+    border-radius:20px;
+    background-color: rgba(220, 220, 220, 0.775);
+    cursor: pointer;
+}
+
+.mike_icon:hover{
+    background-color:rgb(220, 220, 220);
+}
+
+
+
+
