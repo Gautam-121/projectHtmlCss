@@ -5,6 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: 1px solid;
 }
 
 /* Box1 */
@@ -118,6 +123,28 @@
     background-color:rgb(220, 220, 220);
 }
 
+.header_signIn_container{
+    width:12%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
 
+.signIn_Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    color: rgb(0, 0, 255);
+    font-size: 18px;
+    border: 1px solid gainsboro;
+    padding: 5px 5px 5px 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    font-weight: 600;
 
+}
 
+.signIn_Wrapper>i{
+    margin-right:8px;
+}

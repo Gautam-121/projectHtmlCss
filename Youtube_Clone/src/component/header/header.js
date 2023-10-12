@@ -28,7 +28,13 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="header_signIn_container"></div>
+      <div className="header_signIn_container">
+         <i class="fa-solid fa-ellipsis-vertical"></i>
+         <div className="signIn_Wrapper">
+         <i class="fa-regular fa-user"></i>
+         sign in
+         </div>
+      </div>
     </div>
   );
 };
