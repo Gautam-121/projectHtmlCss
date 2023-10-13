@@ -1,7 +1,7 @@
 .header_wrapper{
     /* border: 1px solid; */
     height: 56px;
-    margin: 0px 10px;
+    margin: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     top: 0;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 /* Box1 */
@@ -23,6 +23,7 @@
     border: 1px solid transparent;
     padding: 5px;
     border-radius: 20px;
+    font-size: x-large;
 }
 
 .menu_bar:hover{
@@ -142,9 +143,10 @@
     border-radius: 15px;
     background-color: #ffffff;
     font-weight: 600;
+    cursor: pointer;
 
 }
 
-.signIn_Wrapper>i{
+.signIn_Wrapper i{
     margin-right:8px;
 }
