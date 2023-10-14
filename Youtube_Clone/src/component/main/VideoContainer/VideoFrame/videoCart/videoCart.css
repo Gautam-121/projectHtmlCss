@@ -4,5 +4,57 @@
 }
 
 .video_Cart{
-    margin: 0px 5px;
+    /* border: 1px solid; */
+    width: 422px;
+    padding: 6px;
+    height:330px;
+}
+
+.video_img{
+    width: 422px;
+    height: 238px;
+    border-radius: 15px;
+}
+
+.video_info_wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 95px;
+}
+
+.video_name_info_wrapper>span{
+    display: inline-block;
+    /* border: 1px solid; */
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.info_wrapper{
+    margin-left: 20px;
+    margin-top: 8px;
+    color: #606060;
+    font-size: 14px;
+}
+
+.view_wrapper{
+    margin-top:5px;
+}
+
+.title_video{
+    color: #0f0f0f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.view_wrapper>span{
+    /* margin: 0px 5px; */
+    margin-right: 10px;
+}
+
+.view_wrapper>.dot{
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
