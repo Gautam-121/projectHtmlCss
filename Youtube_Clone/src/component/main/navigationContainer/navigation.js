@@ -18,17 +18,17 @@ const NavigationContainer = () => {
         </div>
       </div>
       <div className="box1">
-        <div className="home background">
+        <div className="home">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p>Library</p>
         </div>
         <div className="home">
           <i class="fa-solid fa-house"></i>
-          <p>Shorts</p>
+          <p>History</p>
         </div>
       </div>
       <div className="box1">
-        <div className="home background">
+        <div className="home">
           Sign in to like videos, comment, and subscribe.
         </div>
         <div className="header_signIn_container">
@@ -41,17 +41,84 @@ const NavigationContainer = () => {
       </div>
       <div className="box1">
         <p className="title">Explore</p>
-        <div className="home background">
+        <div className="home">
           <i class="fa-solid fa-house"></i>
-          <p>Home</p>
+          <p>Trending</p>
         </div>
         <div className="home">
           <i class="fa-solid fa-house"></i>
-          <p>Shorts</p>
+          <p>Shopping</p>
         </div>
         <div className="home">
           <i class="fa-solid fa-house"></i>
-          <p>Subscriptions</p>
+          <p>Movies</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Live</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Music</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Gaming</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>News</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Sports</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Learning</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Podcasts</p>
+        </div>
+      </div>
+      <div className="box1">
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Browse Channel</p>
+        </div>
+      </div>
+      <div className="box1">
+      <p class="headline_ytb"> More from YouTube</p>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Ytb Premium</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Ytb Music</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Ytb Kids</p>
+        </div>
+      </div>
+      <div className="box1">
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Settings</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Report history</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Help</p>
+        </div>
+        <div className="home">
+          <i class="fa-solid fa-house"></i>
+          <p>Send feedback</p>
         </div>
       </div>
     </div>

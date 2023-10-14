@@ -1,0 +1,7 @@
+.videoContainer_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:5px 0px 0px 12px;
+    width: 84%;
+    margin-left: 16%;
+}

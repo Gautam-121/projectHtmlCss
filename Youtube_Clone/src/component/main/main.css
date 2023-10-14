@@ -1,6 +1,6 @@
 .main_conatainer{
     display: flex;
-    /* border: 1px solid; */
     margin-left: 10px;
     margin-top: 56px;
+    height: 100vh;
 }

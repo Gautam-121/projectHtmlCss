@@ -1,0 +1,8 @@
+.video_cart_erapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video_Cart{
+    margin: 0px 5px;
+}

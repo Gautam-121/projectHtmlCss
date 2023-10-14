@@ -1,8 +1,13 @@
 import "./videoContainer.css"
+import FilterBar from "./FilterBar/filterBar"
+import VideoFrammer from "./VideoFrame/videoFrame.js"
 
 const VideoContainer = ()=>{
     return(
-        <div>This is VideoContainer</div>
+        <div className="videoContainer_wrapper">
+            <FilterBar/>
+            <VideoFrammer/>
+        </div>
     )
 }
 
