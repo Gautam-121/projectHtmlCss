@@ -1,20 +1,17 @@
 import "./filterBar.css"
+import { filterContain } from "../../../../utils/constant"
 
 const FilterBar = ()=>{
     return(
         <div className="filter_wrapper">
             <div className="filter_container">
-            <p className="select">All</p>
-            <p>Music</p>
-            <p>Web Developement</p>
-            <p>Trailers</p>
-            <p>Live</p>
-            <p>Tamil Cinema</p>
-            <p>Cricket</p>
-            <p>React routers</p>
-            <p>Sneaker Collecting</p>
-            <p>Algorithm</p>
-            <p>Mutual Funds</p>
+              {
+                filterContain.map((filter , index)=>{
+                    return (
+                        <p className="select">{filter}</p>
+                    )
+                })
+              }
             </div>
         </div>
     )
