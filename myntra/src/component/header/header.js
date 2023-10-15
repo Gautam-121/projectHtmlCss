@@ -20,8 +20,7 @@ const Header = ()=>{
                 <div className="search-icon">
                     <i class="fa-solid fa-magnifying-glass "></i>
                 </div>
-                <input type="text" placeholder="Search for products, brands and more" className="search_input" value={searchItem} onChange={(e)=>setSearchItem(e.target.value)
-}/>
+                <input type="text" placeholder="Search for products, brands and more" className="search_input" value={searchItem} onChange={(e)=>setSearchItem(e.target.value)}/>
             </div>
             <div className="profile_section">
                 <div className="profile_container">
