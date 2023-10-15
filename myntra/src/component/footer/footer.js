@@ -2,7 +2,20 @@ import "./footer.css"
 
 const Footer = ()=>{
     return(
-        <div>This is Footer</div>
+        <div className="footer_wrapper">
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+                
+            </div>
+        </div>
     )
 }
 

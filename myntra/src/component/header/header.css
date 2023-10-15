@@ -1,7 +1,7 @@
 .header_wrapper{
     width: 100%;
     height: 80px;
-    background-color: tan;
+    background-color: #ffffff;
     box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
     display: flex;
     align-items: center;
@@ -14,7 +14,6 @@
     margin-left: 15px;
     display: flex;
     align-items: center;
-    border: 1px solid;
 }
 
 .myntra_logo{
@@ -22,7 +21,7 @@
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 60px;
+    height: 45px;
 }
 
 .nav_bar{
@@ -32,6 +31,7 @@
     height: 100%;
     align-items: center;
     justify-content: space-around;
+    margin-left: -50px;
 }
 
 .nav_bar>a{
@@ -42,7 +42,7 @@
     font-weight: 700;
     padding: 28px 4px;
     border-bottom:3px solid transparent;
-
+    letter-spacing: 1px;
 }
 
 .nav_bar sup{
@@ -56,7 +56,6 @@
 }
 
 .search_bar{
-    background-color: white;
     display: flex;
     align-items: center;
     min-width:200px;
@@ -65,9 +64,51 @@
 }
 
 .search-icon{
-
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    border: none;
+    font-size: small;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .search_input{
     flex-grow:1;
+    height: 38px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 5px;
+}
+
+.profile_section{
+    display: flex;
+    width: 190px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_container>span{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
 }
