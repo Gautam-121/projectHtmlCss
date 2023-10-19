@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Form Validation
+
+using useState
+
+# If you wnat your Input value without re-rendering you can use useRef or new FormInput(e.target)
+
+using useRef --> how useRef Hook Work , see the documentation
